@@ -7,11 +7,11 @@
   The cost function is just the SSE of all the clusters combined.  
 
 ## Acceptance Probability 
-  a = exp((neighborCost – solutionCost) / temp) 
+  a = exp((neighborCost – solutionCost) / temp)   
   If a > randomly generated number, it accepts the worst solution. 
 
-# Annealing Schedule 
-  The temperature: temp = 10000 
-  The cooling rate: coolRate = 0.003 
-  The formula: temp = temp – coolRate 
-  Each execution takes approximately 5 seconds on my computer.
+## Annealing Schedule 
+  The temperature: temp = 10000   
+  The cooling rate: coolRate = 0.003   
+  The formula: temp = temp – coolRate   
+  Each execution takes approximately 5 seconds on my computer.  
