@@ -1,12 +1,12 @@
 # Simulated-Annealing-Clustering-CS4342
 
-# Neighbor Selection 
+## Neighbor Selection 
   It just takes the solution, takes a random point from a cluster, removes it, and adds it to another cluster. 
 
-# Cost Function  
+## Cost Function  
   The cost function is just the SSE of all the clusters combined.  
 
-# Acceptance Probability 
+## Acceptance Probability 
   a = exp((neighborCost – solutionCost) / temp) 
   If a > randomly generated number, it accepts the worst solution. 
 
